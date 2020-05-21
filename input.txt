@@ -1,0 +1,16 @@
+ (12 points) First, implement the sigmoid function in word2vec.py to apply the sigmoid function
+to an input vector. In the same file, fill in the implementation for the softmax and negative sampling
+loss and gradient functions. Then, fill in the implementation of the loss and gradient functions for the
+skip-gram model. When you are done, test your implementation by running python word2vec.py.
+(b) (4 points) Complete the implementation for your SGD optimizer in sgd.py. Test your implementation
+by running python sgd.py.
+(c) (4 points) Show time! Now we are going to load some real data and train word vectors with everything
+you just implemented! We are going to use the Stanford Sentiment Treebank (SST) dataset to train word
+vectors, and later apply them to a simple sentiment analysis task. You will need to fetch the datasets
+first. To do this, run sh get datasets.sh. There is no additional code to write for this part; just
+run python run.py.
+Note: The training process may take a long time depending on the efficiency of your implementation
+(an efficient implementation takes approximately an hour). Plan accordingly!
+After 40,000 iterations, the script will finish and a visualization for your word vectors will appear. It will
+also be saved as word vectors.png in your project directory. Include the plot in your homework
+write up. Briefly explain in at most three sentences what you see in the plot.
